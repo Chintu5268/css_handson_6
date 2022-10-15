@@ -27,12 +27,13 @@ text-transform: uppercase;
   width: 100%;
   height: auto;
   clear: both;
-  margin-top: 200px;
 
   
 }
 .left{
   width: 50%;
+  margin-top: 200px;
+
 
   float: left;
 }
@@ -81,7 +82,7 @@ button{
 }
 #para2{
   position: absolute;
-  top: 15%;
+  top: 20%;
   left:3%;
   font-size: 15px;
 }
@@ -130,4 +131,328 @@ button{
   top: 2%;
   left: 6%;
   font-size: 15px;
+}
+
+@media screen and (max-width: 480px){
+  body{
+    background-image: url('img/banner.webp');
+  
+  }
+  .container{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    margin: 30px auto;
+    padding: auto;
+  }
+  .logo{
+  float: left;
+  /* display: none; */
+  }
+  .nav{
+  text-align: right;
+  }
+  .nav a{
+    
+    text-decoration: none;
+  padding: 2px 0px;
+  margin-right: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  display:block;
+  font-size: 10px;
+  
+  
+  }
+ #bars{
+  font-size: 20px;
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  
+ }
+  .main{
+    width: 100%;
+    height: auto;
+    clear: both;
+    /* margin: -300px 0px; */
+  
+    
+  }
+  .left{
+    width: 100%;
+    /* margin-top: 200px; */
+  
+  
+    /* float: left; */
+  }
+  .capital{
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+  .para{
+    width: 100%;
+    font-size: 10px;
+  }
+  button{
+    width: 80px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .box{
+    width: 100%;
+    height: auto;
+    /* background-color: #fff; */
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .box1{
+    position: relative;
+  
+  }
+  .box1 img{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    margin: 10px auto;
+    
+
+
+  
+  }
+  .box1 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  #para1{
+    position: absolute;
+    top: 8%;
+    left:3%;
+    font-size: 15px;
+  }
+  #para2{
+    position: absolute;
+    top: 15%;
+    left:3%;
+    font-size: 15px;
+  }
+  .box2{
+    position: relative;
+  
+  }
+  .box2 img{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  }
+  .box2 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box3{
+    position: relative;
+  
+  }
+  .box3 img{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  }
+  .box3 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box4{
+    position: relative;
+  
+  }
+  .box4 img{
+    border-radius: 20px;
+    margin: 10px 0px;
+    width:200px;
+    height:200px;
+  
+  
+  }
+  .box4 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+
+}
+@media only screen and (min-width:481px) and (max-width: 990px){
+  body{
+    background-image: url('img/banner.webp');
+  
+  }
+  .container{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    margin: 30px auto;
+    padding: auto;
+  }
+  .logo{
+  float: left;
+  margin-left: 25px;
+  }
+  .logo img{
+    width: 25px;
+    height: 25px;
+  }
+  .nav{
+  text-align: right;
+  }
+  .nav a{
+    text-decoration: none;
+  padding: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  /* margin-right: 10px; */
+  
+  }
+  #bars{
+    margin-right: 25px;
+  }
+  
+  .main{
+    width: 100%;
+    height: auto;
+  
+    margin-top: -200px 0px;
+  
+    
+  }
+  .left{
+    width: 100%;
+    /* margin-top: 200px; */
+  
+  
+    /* float: left; */
+  }
+  .capital{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 ;
+    
+  }
+  .para{
+    width: 100%;
+    font-size: 10px;
+  }
+  button{
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .box{
+    width: 100%;
+    height: auto;
+    /* background-color: #fff; */
+    /* float: right; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  
+  }
+  .box1{
+    position: relative;
+  
+  }
+  .box1 img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  }
+  .box1 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  #para1{
+    position: absolute;
+    top: 8%;
+    left:3%;
+    font-size: 15px;
+  }
+  #para2{
+    position: absolute;
+    top: 15%;
+    left:3%;
+    font-size: 15px;
+  }
+  .box2{
+    position: relative;
+  
+  }
+  .box2 img{
+    width: 100%;
+
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  }
+  .box2 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box3{
+    position: relative;
+  
+  }
+  .box3 img{
+    width: 100%;
+
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  }
+  .box3 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box4{
+    position: relative;
+  
+  }
+  .box4 img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  
+  }
+  .box4 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
 }

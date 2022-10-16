@@ -4,7 +4,7 @@ body{
 }
 .container{
   width: 90%;
-  height: 1500px;
+  height: auto;
   color: #fff;
   margin: 30px auto;
   padding: auto;
@@ -493,7 +493,7 @@ button{
   }
   .container{
     width: 90%;
-    height: 1500px;
+   height: auto;
     color: #fff;
     margin: 30px auto;
     padding: auto;

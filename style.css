@@ -48,7 +48,15 @@ button{
   border-radius: 25px;
   border: none;
 }
-
+.box1:hover{
+  transform: translateY(-10px);
+}.box2:hover{
+  transform: translateY(-10px);
+}.box3:hover{
+  transform: translateY(-10px);
+}.box4:hover{
+  transform: translateY(-10px);
+}
 .box{
   width: 50%;
   height: auto;
@@ -296,9 +304,17 @@ button{
     left: 6%;
     font-size: 15px;
   }
-
+  .box1:hover{
+    transform: translateY(-10px);
+  }.box2:hover{
+    transform: translateY(-10px);
+  }.box3:hover{
+    transform: translateY(-10px);
+  }.box4:hover{
+    transform: translateY(-10px);
+  }
 }
-@media only screen and (min-width:481px) and (max-width: 990px){
+@media only screen and (min-width:481px) and (max-width: 1224px){
   body{
     background-image: url('img/banner.webp');
   
@@ -364,7 +380,15 @@ button{
     border-radius: 15px;
     border: none;
   }
-  
+  .box1:hover{
+    transform: translateY(-10px);
+  }.box2:hover{
+    transform: translateY(-10px);
+  }.box3:hover{
+    transform: translateY(-10px);
+  }.box4:hover{
+    transform: translateY(-10px);
+  }
   .box{
     width: 100%;
     height: auto;
@@ -381,7 +405,8 @@ button{
   
   }
   .box1 img{
-    width: 100%;
+    width:350px;
+    height:250px;
     border-radius: 20px;
     margin: 10px 0px;
   
@@ -409,7 +434,8 @@ button{
   
   }
   .box2 img{
-    width: 100%;
+    width:350px;
+    height:250px;
 
     border-radius: 20px;
     margin: 10px 0px;
@@ -426,7 +452,8 @@ button{
   
   }
   .box3 img{
-    width: 100%;
+    width:350px;
+    height:250px;
 
     border-radius: 20px;
     margin: 10px 0px;
@@ -443,7 +470,8 @@ button{
   
   }
   .box4 img{
-    width: 100%;
+    width:350px;
+    height:250px;
     border-radius: 20px;
     margin: 10px 0px;
   
@@ -455,4 +483,151 @@ button{
     left: 6%;
     font-size: 15px;
   }
+}
+@media only screen and (min-width:1225px){
+  body{
+    background-image: url('img/banner.webp');
+  
+  }
+  .container{
+    width: 90%;
+    height: 1500px;
+    color: #fff;
+    margin: 30px auto;
+    padding: auto;
+  }
+  .logo{
+  float: left;
+  }
+  .nav{
+  text-align: right;
+  }
+  .nav a{
+    text-decoration: none;
+  padding: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  
+  }
+  
+  .main{
+    width: 100%;
+    height: auto;
+    clear: both;
+  
+    
+  }
+  .left{
+    width: 50%;
+    margin-top: 200px;
+  
+  
+    float: left;
+  }
+  .capital{
+    font-size: 100px;
+    font-weight: bold;
+    
+  }
+  button{
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+  }
+  .box1:hover{
+    transform: translateY(-10px);
+  }.box2:hover{
+    transform: translateY(-10px);
+  }.box3:hover{
+    transform: translateY(-10px);
+  }.box4:hover{
+    transform: translateY(-10px);
+  }
+  .box{
+    width: 50%;
+    height: auto;
+    /* background-color: #fff; */
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    flex-direction: row;
+  
+  }
+  .box1{
+    position: relative;
+  
+  }
+  .box1 img{
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  }
+  .box1 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  #para1{
+    position: absolute;
+    top: 8%;
+    left:3%;
+    font-size: 15px;
+  }
+  #para2{
+    position: absolute;
+    top: 20%;
+    left:3%;
+    font-size: 15px;
+  }
+  .box2{
+    position: relative;
+  
+  }
+  .box2 img{
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  }
+  .box2 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box3{
+    position: relative;
+  
+  }
+  .box3 img{
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  }
+  .box3 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .box4{
+    position: relative;
+  
+  }
+  .box4 img{
+    border-radius: 20px;
+    margin: 10px 0px;
+  
+  
+  }
+  .box4 h3{
+    position: absolute;
+    top: 2%;
+    left: 6%;
+    font-size: 15px;
+  }
+
 }

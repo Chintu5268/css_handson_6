@@ -1,5 +1,5 @@
 body{
-  background-image: url('img/banner.webp');
+  background-image:url('img/banner2.jpg');
 
 }
 .container{
@@ -143,7 +143,8 @@ button{
 
 @media screen and (max-width: 480px){
   body{
-    background-image: url('img/banner.webp');
+    background-image: url('img/banner2.jpg');
+
   
   }
   .container{
@@ -314,9 +315,10 @@ button{
     transform: translateY(-10px);
   }
 }
-@media only screen and (min-width:481px) and (max-width: 1224px){
+@media only screen and (min-width:481px) and (max-width: 1225px){
   body{
-    background-image: url('img/banner.webp');
+    background-image: url('img/banner2.jpg');
+
   
   }
   .container{
@@ -405,7 +407,7 @@ button{
   
   }
   .box1 img{
-    width:350px;
+    width:450px;
     height:250px;
     border-radius: 20px;
     margin: 10px 0px;
@@ -434,7 +436,7 @@ button{
   
   }
   .box2 img{
-    width:350px;
+    width:450px;
     height:250px;
 
     border-radius: 20px;
@@ -452,7 +454,7 @@ button{
   
   }
   .box3 img{
-    width:350px;
+    width:450px;
     height:250px;
 
     border-radius: 20px;
@@ -470,7 +472,7 @@ button{
   
   }
   .box4 img{
-    width:350px;
+    width:450px;
     height:250px;
     border-radius: 20px;
     margin: 10px 0px;
@@ -486,7 +488,7 @@ button{
 }
 @media only screen and (min-width:1225px){
   body{
-    background-image: url('img/banner.webp');
+    background-image: url('img/banner2.jpg');
   
   }
   .container{

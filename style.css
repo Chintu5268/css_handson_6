@@ -249,9 +249,10 @@ button{
   }
   #para2{
     position: absolute;
-    top: 15%;
+    top: 20%;
     left:3%;
     font-size: 15px;
+    
   }
   .box2{
     position: relative;
